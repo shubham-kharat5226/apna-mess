@@ -1,0 +1,12 @@
+.table-row-head th {
+    padding: 10px 65px 10px 65px;
+}
+
+.user-row td {
+  padding: 10px 65px 10px 65px;
+}
+
+tbody tr td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 25px 10px 25px;
+}

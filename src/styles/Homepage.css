@@ -1,0 +1,92 @@
+.container-1 {
+    height: auto;
+    padding: 10px;
+}
+
+.conatiner-inner {
+    height: 380px;
+    background-image: url("file_000000001600821190e2eb654eafafb0~2.jpg");
+    background-size: cover;
+    width: 100%;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+@media (max-width: 450px) {
+    .conatiner-inner {
+        background-image: url("smallImageOnMobail.png");
+        background-size: cover;
+    }
+}
+
+.image-cont-heading {
+    color: white;
+    margin-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.start-btn {
+    margin-left: 60px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+.bottom-content {
+    margin-left: 60px;
+    color: white;
+}
+
+.bottom-link {
+    color: aliceblue;
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+.linkedln {
+    color: #0077B5;
+}
+
+.instagram {
+    color: #cf0b0b;
+}
+
+.mess-content {
+    padding: 10px 200px 10px 200px;
+}
+
+@media (max-width: 576px) {
+    .mess-content {
+        padding: 0 10px 0 10px;
+    }
+
+}
+
+@media (max-width: 943px) {
+    .mess-content {
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+
+.mess-content p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.student-image {
+    height: 570px;
+    background-image: url("student-mess.png");
+    background-size: cover;
+}
+
+@media (max-width: 943px) {
+    .student-image {
+        background-image: url("bottomImagePhone.png");
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 30px;
+}

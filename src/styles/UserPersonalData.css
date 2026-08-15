@@ -1,0 +1,23 @@
+.user-details-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 30px 50px 30px;
+    background-color: #D5DED9;
+}
+
+.user-card {
+    height: auto;
+    padding: 10px;
+}
+
+.address {
+    display: flex; 
+    justify-content: left;
+    align-items: center; 
+} 
+
+.address p {
+    margin-right: 1rem;
+}
