@@ -16,7 +16,7 @@ function UserPersonalData() {
   const fetchUserDetails = async () => {
     try {
       const response = await fetch(
-        `http://localhost:8080/api/v1/userdata/${id}`,
+        `https://apna-mess-backend.onrender.com/api/v1/userdata/${id}`,
         {
           method: "GET",
           headers: {

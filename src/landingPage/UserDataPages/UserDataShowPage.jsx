@@ -16,7 +16,7 @@ function UserDataShowPage() {
 
   const fetchUserData = async () => {
     try {
-      const url = "http://localhost:8080/api/v1/userdata";
+      const url = "https://apna-mess-backend.onrender.com/api/v1/userdata";
 
       const response = await fetch(url, {
         method: "GET",
