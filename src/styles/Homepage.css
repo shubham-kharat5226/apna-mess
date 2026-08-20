@@ -90,3 +90,14 @@
     gap: 20px;
     padding-bottom: 30px;
 }
+
+.cards .card {
+    width: min(100%, 18rem) !important;
+    flex: 1 1 18rem;
+}
+
+.cards .card-img-top {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
