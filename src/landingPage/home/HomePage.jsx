@@ -36,7 +36,7 @@ function HomePage() {
 
         <div className="cards">
           <div className="card" style={{ width: "18rem" }}>
-            <img src="thali.png" className="card-img-top" alt="Card" />
+            <img src="/thali.png" className="card-img-top" alt="Card" />
 
             <div className="card-body">
               <h5 className="card-title">step 4</h5>
@@ -49,7 +49,7 @@ function HomePage() {
           </div>
 
           <div className="card" style={{ width: "18rem" }}>
-            <img src="wheat-power.jpg" className="card-img-top" alt="Card" />
+            <img src="/wheat-power.jpg" className="card-img-top" alt="Card" />
 
             <div className="card-body">
               <h5 className="card-title">step 3</h5>
@@ -63,7 +63,7 @@ function HomePage() {
 
           <div className="card" style={{ width: "18rem" }}>
             <img
-              src="wheat-clean-tracter.jpg"
+              src="/wheat-clean-tracter.jpg"
               className="card-img-top"
               alt="Card"
             />
@@ -79,7 +79,7 @@ function HomePage() {
           </div>
 
           <div className="card" style={{ width: "18rem" }}>
-            <img src="farmer-sides1.jpg" className="card-img-top" alt="Card" />
+            <img src="/farmer-sides1.jpg" className="card-img-top" alt="Card" />
 
             <div className="card-body">
               <h5 className="card-title">step 1</h5>
