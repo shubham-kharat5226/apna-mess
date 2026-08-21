@@ -21,3 +21,14 @@
 .address p {
     margin-right: 1rem;
 }
+
+.btn-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn-list button {
+    padding: 5px 30px;
+    margin-right: 20px;
+}

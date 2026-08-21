@@ -22,7 +22,7 @@ function UserPersonalData() {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
 
       if (response.ok) {
@@ -55,12 +55,7 @@ function UserPersonalData() {
   //   .join(", ");
 
   return (
-    
-    
-
-
     <div className="user-details-container">
-        
       <div className="user-card">
         <h2>{user.name}</h2>
         <p>
@@ -91,11 +86,18 @@ function UserPersonalData() {
           <p>
             <strong>SubDistrict: </strong> {user.subdistrict}
           </p>
-          
         </div>
         <p>
-            <strong>City: </strong> {user.city}
-          </p>
+          <strong>City: </strong> {user.city}
+        </p>
+        <div className="btn-list">
+          <button type="button" class="btn btn-success btn-sm">
+            EDIT
+          </button>
+          <button type="button" class="btn btn-danger btn-sm">
+            DELETE
+          </button>
+        </div>
       </div>
     </div>
   );

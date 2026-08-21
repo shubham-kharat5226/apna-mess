@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+
 
 function Navbar() {
 
-  const [loggedInUser, setLoggedInUser] = useState('');
-  useEffect(() => {
-    setLoggedInUser(localStorage.getItem("token"));
-  }, [])
   
 
   return (

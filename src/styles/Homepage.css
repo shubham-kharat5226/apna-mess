@@ -12,7 +12,7 @@
     padding: 20px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     .conatiner-inner {
         background-image: url("/smallImageOnMobail.png");
         background-size: cover;
